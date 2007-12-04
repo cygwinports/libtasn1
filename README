@@ -12,7 +12,7 @@ Build requirements:
   autoconf2.5-2.61-1
   automake1.10-1.10-1
   binutils-20060817-1
-  cygport-0.2.11-1
+  cygport-0.3.7-1
   gawk-3.1.5-4
   gcc-core-3.4.4-3
   libtool1.5-1.5.23a-2
@@ -28,17 +28,17 @@ Canonical download:
 -------------------------------------------
 
 Build instructions:
-  unpack libtasn1-0.3.9-X-src.tar.bz2
+  unpack libtasn1-1.1-X-src.tar.bz2
     if you use setup to install this src package, it will be
 	 unpacked under /usr/src automatically
   cd /usr/src
-  cygport ./libtasn1-0.3.9-X.cygport all
+  cygport ./libtasn1-1.1-X.cygport all
 
 This will create:
-  /usr/src/libtasn1-0.3.9-X-src.tar.bz2
-  /usr/src/libtasn1-0.3.9-X.tar.bz2
-  /usr/src/libtasn1_3-0.3.9-X.tar.bz2
-  /usr/src/libtasn1-devel-0.3.9-X.tar.bz2
+  /usr/src/libtasn1-1.1-X-src.tar.bz2
+  /usr/src/libtasn1-1.1-X.tar.bz2
+  /usr/src/libtasn1_3-1.1-X.tar.bz2
+  /usr/src/libtasn1-devel-1.1-X.tar.bz2
 
 -------------------------------------------
 
@@ -49,19 +49,16 @@ Files included in the binary packages:
   /usr/bin/asn1Coding.exe
   /usr/bin/asn1Decoding.exe
   /usr/bin/asn1Parser.exe
-  /usr/share/doc/Cygwin/libtasn1-0.3.9.README
-  /usr/share/doc/libtasn1-0.3.9/AUTHORS
-  /usr/share/doc/libtasn1-0.3.9/COPYING
-  /usr/share/doc/libtasn1-0.3.9/COPYING.LIB
-  /usr/share/doc/libtasn1-0.3.9/ChangeLog
-  /usr/share/doc/libtasn1-0.3.9/INSTALL
-  /usr/share/doc/libtasn1-0.3.9/NEWS
-  /usr/share/doc/libtasn1-0.3.9/README
-  /usr/share/doc/libtasn1-0.3.9/THANKS
+  /usr/share/doc/Cygwin/libtasn1-1.1.README
+  /usr/share/doc/libtasn1-1.1/AUTHORS
+  /usr/share/doc/libtasn1-1.1/COPYING
+  /usr/share/doc/libtasn1-1.1/COPYING.LIB
+  /usr/share/doc/libtasn1-1.1/ChangeLog
+  /usr/share/doc/libtasn1-1.1/INSTALL
+  /usr/share/doc/libtasn1-1.1/NEWS
+  /usr/share/doc/libtasn1-1.1/README
+  /usr/share/doc/libtasn1-1.1/THANKS
   /usr/share/info/libtasn1.info.gz
-  /usr/share/man/man1/asn1Coding.1.gz
-  /usr/share/man/man1/asn1Decoding.1.gz
-  /usr/share/man/man1/asn1Parser.1.gz
 
 (libtasn1_3)
   /usr/bin/cygtasn1-3.dll
@@ -74,6 +71,9 @@ Files included in the binary packages:
   /usr/lib/libtasn1.la
   /usr/lib/pkgconfig/libtasn1.pc
   /usr/share/aclocal/libtasn1.m4
+  /usr/share/man/man1/asn1Coding.1.gz
+  /usr/share/man/man1/asn1Decoding.1.gz
+  /usr/share/man/man1/asn1Parser.1.gz
   /usr/share/man/man3/asn1_array2tree.3.gz
   /usr/share/man/man3/asn1_bit_der.3.gz
   /usr/share/man/man3/asn1_check_version.3.gz
@@ -108,6 +108,9 @@ Files included in the binary packages:
 ------------------
 
 Port Notes:
+
+----- version 1.1-1 -----
+Version bump.
 
 ----- version 0.3.9-1 -----
 Version bump; last distro release was 0.2.15-1.
