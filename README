@@ -4,11 +4,11 @@ A library for Abstract Syntax Notation One (ASN.1) and Distinguish
 Encoding Rules (DER) manipulation.
 
 Runtime requirements:
-  cygwin-1.5.24-2
+  cygwin-1.5.25-7
 
 Build requirements:
 (besides corresponding -devel packages)
-  cygwin-1.5.24-2
+  cygwin-1.5.25-7
   autoconf2.5-2.61-1
   automake1.10-1.10-1
   binutils-20060817-1
@@ -28,17 +28,17 @@ Canonical download:
 -------------------------------------------
 
 Build instructions:
-  unpack libtasn1-1.1-X-src.tar.bz2
+  unpack libtasn1-1.2-X-src.tar.bz2
     if you use setup to install this src package, it will be
 	 unpacked under /usr/src automatically
   cd /usr/src
-  cygport ./libtasn1-1.1-X.cygport all
+  cygport ./libtasn1-1.2-X.cygport all
 
 This will create:
-  /usr/src/libtasn1-1.1-X-src.tar.bz2
-  /usr/src/libtasn1-1.1-X.tar.bz2
-  /usr/src/libtasn1_3-1.1-X.tar.bz2
-  /usr/src/libtasn1-devel-1.1-X.tar.bz2
+  /usr/src/libtasn1-1.2-X-src.tar.bz2
+  /usr/src/libtasn1-1.2-X.tar.bz2
+  /usr/src/libtasn1_3-1.2-X.tar.bz2
+  /usr/src/libtasn1-devel-1.2-X.tar.bz2
 
 -------------------------------------------
 
@@ -49,15 +49,15 @@ Files included in the binary packages:
   /usr/bin/asn1Coding.exe
   /usr/bin/asn1Decoding.exe
   /usr/bin/asn1Parser.exe
-  /usr/share/doc/Cygwin/libtasn1-1.1.README
-  /usr/share/doc/libtasn1-1.1/AUTHORS
-  /usr/share/doc/libtasn1-1.1/COPYING
-  /usr/share/doc/libtasn1-1.1/COPYING.LIB
-  /usr/share/doc/libtasn1-1.1/ChangeLog
-  /usr/share/doc/libtasn1-1.1/INSTALL
-  /usr/share/doc/libtasn1-1.1/NEWS
-  /usr/share/doc/libtasn1-1.1/README
-  /usr/share/doc/libtasn1-1.1/THANKS
+  /usr/share/doc/Cygwin/libtasn1-1.2.README
+  /usr/share/doc/libtasn1-1.2/AUTHORS
+  /usr/share/doc/libtasn1-1.2/COPYING
+  /usr/share/doc/libtasn1-1.2/COPYING.LIB
+  /usr/share/doc/libtasn1-1.2/ChangeLog
+  /usr/share/doc/libtasn1-1.2/INSTALL
+  /usr/share/doc/libtasn1-1.2/NEWS
+  /usr/share/doc/libtasn1-1.2/README
+  /usr/share/doc/libtasn1-1.2/THANKS
   /usr/share/info/libtasn1.info.gz
 
 (libtasn1_3)
@@ -108,6 +108,9 @@ Files included in the binary packages:
 ------------------
 
 Port Notes:
+
+----- version 1.2-1 -----
+Version bump.
 
 ----- version 1.1-1 -----
 Version bump.
