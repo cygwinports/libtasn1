@@ -1,6 +1,0 @@
-category: Libs
-requires: cygwin
-external-source: libtasn1
-sdesc: "ASN.1 library (runtime)"
-ldesc: "A library for Abstract Syntax Notation One (ASN.1) and Distinguish
-Encoding Rules (DER) manipulation."

@@ -1,5 +1,0 @@
-category: Libs
-requires: libtasn1_3
-sdesc: "ASN.1 library (utilities)"
-ldesc: "A library for Abstract Syntax Notation One (ASN.1) and Distinguish
-Encoding Rules (DER) manipulation."
