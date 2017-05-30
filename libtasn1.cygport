@@ -1,7 +1,7 @@
 inherit gnome2
 
 NAME="libtasn1"
-VERSION=4.10
+VERSION=4.12
 RELEASE=1
 CATEGORY="Libs"
 SUMMARY="ASN.1 library"
